@@ -1,10 +1,10 @@
 package ordersproject;
-//@author 1895271
+
 import java.util.Date;
 
 public class Order {
-    Date date;
-    String status;
+    private Date date;
+    private String status;
     
     public Order(Date date, String status) {
         this.date = date;
