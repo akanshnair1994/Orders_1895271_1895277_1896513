@@ -1,11 +1,9 @@
 package ordersproject;
-
-import java.util.Date;
 //@author 1895277
 public class Customer {
     
-    String name;
-    String address;
+    private String name;
+    private String address;
     
   public Customer(String name,String address){
       this.name=name;

@@ -11,7 +11,7 @@ package ordersproject;
  */
 public class Cash {
 
-    float cashTendered;
+    private float cashTendered;
 
     public Cash(float cashTendered) {
         this.cashTendered = cashTendered;
