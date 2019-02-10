@@ -1,6 +1,4 @@
 package ordersproject;
-
-import java.util.Date;
 //@author 1895277
 public class Customer {
     
