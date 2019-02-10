@@ -5,6 +5,7 @@ import java.util.Date;
 public class Order {
     private Date date;
     private String status;
+    public Customer customer;
     
     public Order(Date date, String status) {
         this.date = date;

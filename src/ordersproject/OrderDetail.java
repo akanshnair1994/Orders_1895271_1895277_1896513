@@ -3,6 +3,8 @@ package ordersproject;
 public class OrderDetail {
     private int quantity;
     private String taxStatus;
+    public Order order;
+    public Item item;
     
     public OrderDetail(int quantity, String taxStatus) {
         this.quantity = quantity;
