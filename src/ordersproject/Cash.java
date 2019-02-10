@@ -9,11 +9,12 @@ package ordersproject;
  *
  * @author 1896513
  */
-public class Cash {
+public class Cash extends Payment {
 
     private float cashTendered;
 
-    public Cash(float cashTendered) {
+    public Cash(float cashTendered, float amount) {
+        super(amount);
         this.cashTendered = cashTendered;
     }
 

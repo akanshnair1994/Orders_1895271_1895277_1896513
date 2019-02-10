@@ -11,13 +11,14 @@ import java.util.Date;
  *
  * @author 1896513
  */
-public class Credit {
+public class Credit extends Payment {
 
     private String name;
     private String type;
     private Date expDate;
 
-    public Credit(String name, String type, Date expDate) {
+    public Credit(String name, String type, Date expDate, float amount) {
+        super(amount);
         this.name = name;
         this.type = type;
         this.expDate = expDate;
